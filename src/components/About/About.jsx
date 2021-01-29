@@ -39,14 +39,14 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'This is test paragraph one.'}
+                    'This is the first story in a book of lies.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'This is test paragraph two.'}
+                    'Just when you thought I couldnt bullshit anymore, here I come with more rambling.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Test paragraph three.'}
+                  {paragraphThree || 'Its not over till the last words are told of this long ramble.'}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
